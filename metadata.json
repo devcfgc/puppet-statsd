@@ -1,16 +1,12 @@
 {
   "name": "jdowning-statsd",
   "version": "3.1.0",
-  "source": "https://github.com/justindowning/puppet-statsd.git",
+  "source": "https://github.com/justindowning/puppet-statsd",
   "author": "Justin Downing",
   "license": "Apache-2.0",
   "summary": "Setup and manage statsd",
-  "description": "Setup and manage statsd",
   "project_page": "https://github.com/justindowning/puppet-statsd",
   "issues_url": "https://github.com/justindowning/puppet-statsd/issues",
-  "dependencies": [
-    { "name": "puppetlabs/stdlib", "version_requirement": ">=4.6.0 <5.0.0" }
-  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
@@ -38,6 +34,15 @@
     }
   ],
   "requirements": [
-    { "name": "puppet", "version_requirement": ">=3.0.0" }
+    { 
+      "name": "puppet", 
+      "version_requirement": ">=3.0.0" 
+    }
+  ],
+  "dependencies": [
+    { 
+      "name": "puppetlabs/stdlib", 
+      "version_requirement": ">=4.6.0 <5.0.0" 
+    }
   ]
 }
