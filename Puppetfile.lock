@@ -9,7 +9,7 @@ GIT
   sha: 240817d3f57256b387c9adc2cfdda586353db52b
   specs:
     puppet-nodejs (1.2.0)
-      puppetlabs-stdlib (< 5.0.0, >= 4.1.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
       treydock-gpg_key (< 1.0.0, >= 0.0.3)
 
 GIT
@@ -18,7 +18,7 @@ GIT
   sha: 3df188f879d35836ec0c14298c5dbec06179dd18
   specs:
     puppetlabs-apt (2.1.1)
-      puppetlabs-stdlib (< 5.0.0, >= 4.5.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
 
 GIT
   remote: git://github.com/puppetlabs/puppetlabs-stdlib.git
